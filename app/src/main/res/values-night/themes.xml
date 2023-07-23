@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SAMS" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="Theme.SAMS.Fullscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:actionBarStyle">@style/Widget.Theme.SAMS.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.SAMS.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+    </style>
+</resources>
